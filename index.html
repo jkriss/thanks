@@ -10,7 +10,6 @@ body {
   margin:0;
   padding:0;
   font-weight:bold;
-  background-size: cover;
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQYVwFXAKj/AXRYiP/p2/QABhX5ADBGIwDu5PkACusRAAfxDwABOC9S//3+AgAUCggAREIzAPPqBAAnCTQA9uoJAAE5ME7/BQsUAA4IEwBHND4A+ez8AAcCCADt1PUAS6gcuiep0Y8AAAAASUVORK5CYII=");
 }
 body div {
@@ -38,7 +37,7 @@ body[data-state=loading] #loading-message {
 #loading-message {
   letter-spacing: normal;
   font-weight: normal;
-  margin-top: 15%;
+  margin-top: -12em;
   color: #555;
 }
 
@@ -143,6 +142,14 @@ notes {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-size: cover;
+}
+
+html, body {
+  height: 100%;
 }
 
 </style>
